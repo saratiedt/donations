@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Donations",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
