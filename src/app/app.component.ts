@@ -12,5 +12,4 @@ import { CommonModule } from '@angular/common';
 export class AppComponent {
   public environmentInjector = inject(EnvironmentInjector);
 
-  constructor() {}
 }
