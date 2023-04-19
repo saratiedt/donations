@@ -19,6 +19,15 @@
     <ion-item>
       <ion-input label="Descrição" placeholder="digite uma descrição"></ion-input>
     </ion-item>
+
+    <ion-button expand="full">
+      <ion-icon lazy="true" slot="start" name="image"></ion-icon>
+      <input type="file" class="image-input" (change)="loadImage($event)" id="file-input"
+        accept="image/png, image/jpeg">
+    </ion-button>
+
+    <img [src]="convertedImage">
+
   </ion-list>
 
   <ion-button>Salvar</ion-button>
